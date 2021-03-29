@@ -1,0 +1,106 @@
+body {
+  background-image: url(game.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+h1 {
+  font-size: 64px;
+  text-align: center;
+  border-radius: 20px;
+  border-style: ridge;
+  box-shadow: 10px 10px 5px black;
+  margin: 60px;
+  padding: 10px;
+  background-color: rgb(11,47,0);
+  color: rgb(5, 117, 1);
+  width: 800px;
+  transform: translateX(25%);
+}
+
+.side {
+  width: 200px;
+  margin: 20px;
+  padding: 20px;
+  padding-top: 1px;
+  background-color: #fdfdff;
+  border-radius: 15px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  float: left;
+  height: 200px;
+}
+
+.score{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  white-space: nowrap;
+  color: white;
+  border-style: outset;
+  border-color: grey;
+  background-color: rgb(2,55,11);
+  padding: 10px 23px;
+  width: 40px;
+  height: 15px;
+  font-size: 10px;
+  transform: translate(20px, 70px);
+}
+
+.true{
+  transform: translate(20px, -30px)
+}
+
+.false{
+  transform: translate(40px, -30px)
+}
+
+.reset{
+  transform: translate(131px, -22px)
+}
+
+.display{
+  background-color: white;
+  border-style: double;
+  border-color: black;
+  margin: 20px;
+  float: left;
+  width: 700px;
+  height: 350px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 35px;
+  text-align: center;
+}
+
+ .ultdiv{
+  background-color: white;
+  border-style: double;
+  border-color: black;
+  position:absolute;
+  top: 55%;
+  left: 45%;
+  transform: translate(465px, -117px);
+  width: 255px;
+  height: 130px;
+ }
+
+.ultdiv button{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  white-space: nowrap;
+  color: white;
+  background-color: rgb(4,145,28);
+  padding: 10px 23px;
+}
+
+.ultdiv button:hover{
+  white-space: nowrap;
+  background-color: green;
+}
+
+.ultdiv button:active{
+  border-style: inset;
+}
